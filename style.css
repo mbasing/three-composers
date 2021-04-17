@@ -58,7 +58,7 @@ span {
 .container img:hover {
   transform: scale(1.01);
 }
-.container h1 {
+.container h2 {
   text-align: center;
   width: 20rem;
   color: #333;
