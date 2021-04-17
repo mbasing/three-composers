@@ -19,3 +19,16 @@ app.controller("ComposerController",function($scope){
     ];
 });
 
+let bach = document.querySelector("#bach");
+let beethoven = document.querySelector("#beethoven");
+let mozart = document.querySelector("#mozart");
+let main = document.querySelector(".main");
+
+let composers = [bach, beethoven, mozart];
+
+for(let composer of composers){
+    composer.addEventListener('click', ()=>{
+        main.style.display="block"
+    })
+}
+
